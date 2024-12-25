@@ -52,7 +52,7 @@ let a1
 console.log(a1) //undefined
 console.log(typeof a1)
 
-//! 5.null - the tyoe of null will be object
+//! 5.null - the type of null will be object
 let a2 = null
 console.log(a2)
 console.log(typeof a2) //object

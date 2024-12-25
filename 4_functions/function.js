@@ -73,12 +73,12 @@ let outer1 = () => {
 outer1()
 
 //! what is lexical scoping?
-    //! When we are declaring nested function ,inner function can take all the property of ourter
+    //! When we are declaring nested function ,inner function can take all the property of outer
     // !function, but outer function can't take the property of inner function. 
 
 //! Higher order function and call back funciton
 // The function who take another function as an arguement is called higer order function.
-// The function which one is sending as parameterto higher order function is called call back function.
+// The function which one is sending as parameter to higher order function is called call back function.
 
 //! higher order function
 

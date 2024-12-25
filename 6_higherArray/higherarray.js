@@ -79,8 +79,8 @@ console.log(maparr)
 arr7 = [10,20,30,40,50]
 let reducearr = arr7.reduce((acc,ele)=>{
     return acc + ele
-},0)
-console.log(reducearr)
+},1)
+console.log("reduce arr "+reducearr)
 
 // ! 5)sort()
 

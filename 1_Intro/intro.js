@@ -6,7 +6,7 @@ console.log("I am external javaScript");
 // alert("This is  alert message")
 
 //3.document.write - display in the html file.
-document.write("Hello");
+// document.write("Hello");
 
 // ! How to declae variables in JavaScript
 
@@ -45,3 +45,4 @@ let d = 40
 const e = 20
 console.log(e)
 //re_initialization and re-declaration also not possible
+

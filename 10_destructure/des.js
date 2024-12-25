@@ -15,9 +15,9 @@ console.log(ob.skill)
 //! object destructure
 
 
-// let [name,age,skill] = ob
-// console.log(name);
-// console.log(age)
+let {name,age,skill} = ob
+console.log("name is"+name); //abc
+console.log("age is "+age) //20
 
 
 
@@ -28,19 +28,6 @@ let[a,b,c]= arr
 console.log(a)
 console.log(b)
 console.log(c)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //! Rest Parameter

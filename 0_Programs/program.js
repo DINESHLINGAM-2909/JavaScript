@@ -50,3 +50,37 @@ function sort(a){
     }
     return a
 }
+
+let arr = [1,4,45,6,10,0]
+let target = 13
+var res = "not found"
+    
+    for(let i = 0;i<arr.length;i++)
+    {
+        for(let j = i+1;j<arr.length;j++)
+        {
+            for(let k = j+1;k<arr.length;k++)
+            {
+                if(arr[i]+arr[j]+arr[k] == target)
+                    res = "found"
+            }
+        }   
+    }
+    console.log(res)
+
+let a1 = [1,4,45,1,6,8]
+let target1 = 10
+let res1 = "not found"
+let i = 0
+let j = a1.length-1
+while(i<j)
+{
+    if(a1[i] == a1[j])
+        res1 = "found"
+    else if(a1[i] + a1[j] > target)
+        j--
+    else 
+        i++
+}
+console.log(res1)
+  
